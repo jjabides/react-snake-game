@@ -1,0 +1,22 @@
+
+
+.container {
+  height: 90%;
+  width: auto;
+  aspect-ratio: 1 / 1;
+  background-color: black;
+  overflow: hidden;
+}
+
+.container svg {
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (orientation: portrait) {
+  .container {
+    width: 90%;
+    margin-top: 16px;
+    height: auto !important;
+  }
+}
